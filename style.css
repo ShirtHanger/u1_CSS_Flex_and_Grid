@@ -5,3 +5,31 @@ body {
 .user-info-container {
     margin-top: 3rem;
 }
+
+/* "Display: Flex;" This tells the computer you are making the content a flex box 
+    This does a TON of stuff in just 1 line of code*/
+
+#button-container {
+    display: flex;
+    flex-direction: row; /* Element will ALWAYS be somewhere, regardless of screen size */
+    /* row or column, can add -reverse to it */
+    justify-content: space-between; /* sticks content or spacing regardless of 
+    screen size */
+}
+
+.user-info-container { /* This alone does not make the sign in and submit a full column, because there are technicallly only two items. */
+    display: flex;
+    flex-direction: column;
+}
+
+#user-info { /* You must also target child items inside catagories */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dash classes expected you to do this manually!
+
+With pixels and percentages!
+
+Look how simple it is with just 6 lines of code!! */

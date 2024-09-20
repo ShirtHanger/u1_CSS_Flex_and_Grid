@@ -1,0 +1,9 @@
+Flex box and responsive design
+
+Flex basically fixes pages up so they can look good on multiple screen sizes and displays
+
+Learn more with https://flexboxfroggy.com/
+
+align-items:;
+justify-content:;
+flex-direction:;
